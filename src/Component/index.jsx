@@ -42,7 +42,7 @@ export const Joke = (props) => {
           ></button>
 
           <span id="likes-up" className="likes-count likes-count--up">
-            {scoreUp}
+            {scoreUp + props.likes}
           </span>
           <button
             id="btn-down"
@@ -51,7 +51,7 @@ export const Joke = (props) => {
           ></button>
 
           <span id="likes-down" className="likes-count likes-count--down">
-            {scoreDown}
+            {scoreDown + props.dislikes}
           </span>
         </div>
       </div>

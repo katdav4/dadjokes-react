@@ -8,12 +8,12 @@ const App = () => {
   return jokes.map((jokeItem) => {
     return (
       <Joke
-        /* props={jokeItem} */
-        key={jokeItem.name}
+        key={jokeItem.id}
         name={jokeItem.name}
         avatar={jokeItem.avatar}
         text={jokeItem.text}
         likes={jokeItem.likes}
+        dislikes={jokeItem.dislikes}
       />
     );
   });
