@@ -1,4 +1,4 @@
-import React, { Component, useState } from 'react';
+import React, { useState } from 'react';
 
 export const Joke = (props) => {
   const [scoreUp, setScoreUp] = useState(0);
@@ -11,17 +11,6 @@ export const Joke = (props) => {
   const handleClickDown = () => {
     setScoreDown(scoreDown + 1);
   };
-
-  console.log(props);
-  /*  {
-    id: 'user02',
-    avatar:
-      'https://raw.githubusercontent.com/Czechitas-podklady-WEB/dadjokes/main/users/user02.png',
-    name: 'wetcxjfsj',
-    text: "Why did the invisible man turn down the job offer? He couldn't see himself doing it.",
-    likes: 50,
-    dislikes: 10,
-  }, */
 
   return (
     <div className="container">

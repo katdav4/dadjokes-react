@@ -1,5 +1,5 @@
 import { render } from 'react-dom';
-import React, { Component, useState } from 'react';
+import React from 'react';
 import './style.css';
 import { Joke } from './Component';
 import { jokes } from './jokes.js';
